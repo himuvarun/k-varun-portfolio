@@ -1,26 +1,39 @@
 import { Button } from "@/components/ui/button";
 import { Download, ArrowUp } from "lucide-react";
-
 const Footer = () => {
   const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
   };
-
   const currentYear = new Date().getFullYear();
-
-  const navLinks = [
-    { name: "About", href: "#about" },
-    { name: "Skills", href: "#skills" },
-    { name: "Projects", href: "#projects" },
-    { name: "Experience", href: "#experience" },
-    { name: "Education", href: "#education" },
-    { name: "Achievements", href: "#achievements" },
-    { name: "Certifications", href: "#certifications" },
-    { name: "Contact", href: "#contact" }
-  ];
-
-  return (
-    <footer className="bg-primary text-primary-foreground py-12">
+  const navLinks = [{
+    name: "About",
+    href: "#about"
+  }, {
+    name: "Skills",
+    href: "#skills"
+  }, {
+    name: "Projects",
+    href: "#projects"
+  }, {
+    name: "Experience",
+    href: "#experience"
+  }, {
+    name: "Education",
+    href: "#education"
+  }, {
+    name: "Achievements",
+    href: "#achievements"
+  }, {
+    name: "Certifications",
+    href: "#certifications"
+  }, {
+    name: "Contact",
+    href: "#contact"
+  }];
+  return <footer className="bg-primary text-primary-foreground py-12">
       <div className="section-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           {/* Brand Section */}
@@ -29,10 +42,7 @@ const Footer = () => {
             <p className="text-primary-foreground/80 mb-4">
               AI/ML Engineer passionate about solving real-world problems with innovative technology.
             </p>
-            <Button 
-              variant="outline" 
-              className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
-            >
+            <Button variant="outline" className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10">
               <Download className="w-4 h-4 mr-2" />
               Download Resume
             </Button>
@@ -42,15 +52,9 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Quick Links</h4>
             <div className="grid grid-cols-2 gap-2">
-              {navLinks.map((link) => (
-                <a
-                  key={link.name}
-                  href={link.href}
-                  className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-300 text-sm"
-                >
+              {navLinks.map(link => <a key={link.name} href={link.href} className="text-primary-foreground/80 hover:text-primary-foreground transition-colors duration-300 text-sm">
                   {link.name}
-                </a>
-              ))}
+                </a>)}
             </div>
           </div>
 
@@ -58,8 +62,8 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Contact</h4>
             <div className="space-y-2 text-primary-foreground/80 text-sm">
-              <p>📧 kvarun.aiml@gmail.com</p>
-              <p>📱 +91 98765 43210</p>
+              <p>📧 himuvarun@gmail.com</p>
+              <p>📱 +91 98808 26377</p>
               <p>📍 India</p>
               <p>💼 LinkedIn: linkedin.com/in/kvarun</p>
             </div>
@@ -73,20 +77,13 @@ const Footer = () => {
               © {currentYear} K Varun. All rights reserved.
             </p>
             
-            <Button
-              variant="ghost"
-              size="sm"
-              onClick={scrollToTop}
-              className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10 mt-4 md:mt-0"
-            >
+            <Button variant="ghost" size="sm" onClick={scrollToTop} className="text-primary-foreground/80 hover:text-primary-foreground hover:bg-primary-foreground/10 mt-4 md:mt-0">
               <ArrowUp className="w-4 h-4 mr-2" />
               Back to Top
             </Button>
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;

@@ -1,30 +1,24 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
-
-const educationData = [
-  {
-    degree: "Bachelor of Technology",
-    field: "Computer Science & Engineering",
-    institution: "Premier Engineering College",
-    location: "India",
-    period: "2021 - 2025",
-    description: "Specialized in Artificial Intelligence and Machine Learning with a focus on deep learning, neural networks, and data science. Maintained excellent academic performance while actively participating in technical events.",
-    gpa: "8.5/10.0"
-  },
-  {
-    degree: "Higher Secondary Education",
-    field: "Mathematics, Physics, Chemistry",
-    institution: "Excellence High School",
-    location: "India", 
-    period: "2019 - 2021",
-    description: "Completed higher secondary education with distinction in science subjects. Developed strong analytical and problem-solving skills that laid the foundation for engineering studies.",
-    gpa: "95%"
-  }
-];
-
+const educationData = [{
+  degree: "Bachelor of Technology",
+  field: "Computer Science & Engineering",
+  institution: "Premier Engineering College",
+  location: "India",
+  period: "2021 - 2025",
+  description: "Specialized in Artificial Intelligence and Machine Learning with a focus on deep learning, neural networks, and data science. Maintained excellent academic performance while actively participating in technical events.",
+  gpa: "8.5/10.0"
+}, {
+  degree: "Higher Secondary Education",
+  field: "Mathematics, Physics, Chemistry",
+  institution: "Excellence High School",
+  location: "India",
+  period: "2019 - 2021",
+  description: "Completed higher secondary education with distinction in science subjects. Developed strong analytical and problem-solving skills that laid the foundation for engineering studies.",
+  gpa: "95%"
+}];
 const EducationSection = () => {
-  return (
-    <section id="education" className="py-20 bg-muted/30">
+  return <section id="education" className="py-20 bg-muted/30">
       <div className="section-container">
         <div className="animate-fade-in">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 gradient-text">
@@ -39,13 +33,7 @@ const EducationSection = () => {
               {/* Timeline line */}
               <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 h-full w-0.5 bg-accent/30"></div>
 
-              {educationData.map((education, index) => (
-                <div 
-                  key={education.degree}
-                  className={`relative flex items-center mb-12 ${
-                    index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'
-                  }`}
-                >
+              {educationData.map((education, index) => <div key={education.degree} className={`relative flex items-center mb-12 ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'}`}>
                   {/* Timeline dot */}
                   <div className="absolute left-4 md:left-1/2 transform md:-translate-x-1/2 w-8 h-8 bg-accent rounded-full flex items-center justify-center border-4 border-background z-10">
                     <GraduationCap className="w-4 h-4 text-white" />
@@ -59,7 +47,7 @@ const EducationSection = () => {
                           <Calendar className="w-4 h-4 text-accent" />
                           <span className="text-sm text-accent font-medium">{education.period}</span>
                         </div>
-                        <CardTitle className="text-xl">{education.degree}</CardTitle>
+                        
                         <p className="text-accent font-medium">{education.field}</p>
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <MapPin className="w-4 h-4" />
@@ -77,14 +65,11 @@ const EducationSection = () => {
                       </CardContent>
                     </Card>
                   </div>
-                </div>
-              ))}
+                </div>)}
             </div>
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default EducationSection;
