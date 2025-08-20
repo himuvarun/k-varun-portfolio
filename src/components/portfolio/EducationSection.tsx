@@ -1,21 +1,29 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const educationData = [{
-  degree: "Bachelor of Technology",
-  field: "Computer Science & Engineering",
-  institution: "Premier Engineering College",
-  location: "India",
-  period: "2021 - 2025",
-  description: "Specialized in Artificial Intelligence and Machine Learning with a focus on deep learning, neural networks, and data science. Maintained excellent academic performance while actively participating in technical events.",
-  gpa: "8.5/10.0"
+  degree: "Bachelor of Engineering",
+  field: "Artificial Intelligence & Machine Learning",
+  institution: "Ballari Institute of Technology and Management (BITM)",
+  location: "Ballari, India",
+  period: "2021 - Present",
+  description: "Currently pursuing Bachelor of Engineering in Artificial Intelligence & Machine Learning with focus on deep learning, neural networks, computer vision, and data science. Actively engaged in AI research projects and technical competitions.",
+  gpa: "8.24 CGPA"
 }, {
-  degree: "Higher Secondary Education",
-  field: "Mathematics, Physics, Chemistry",
-  institution: "Excellence High School",
-  location: "India",
+  degree: "Pre-University Course",
+  field: "Physics, Chemistry, Mathematics, Biology (PCMB)",
+  institution: "BIPU",
+  location: "Ballari, India",
   period: "2019 - 2021",
-  description: "Completed higher secondary education with distinction in science subjects. Developed strong analytical and problem-solving skills that laid the foundation for engineering studies.",
-  gpa: "95%"
+  description: "Completed Pre-University education with strong foundation in science and mathematics, preparing for engineering studies with emphasis on analytical thinking and problem-solving skills.",
+  gpa: "83%"
+}, {
+  degree: "Secondary School Certificate",
+  field: "10th Standard",
+  institution: "Kendriya Vidyalaya",
+  location: "Ballari, India",
+  period: "2018 - 2019",
+  description: "Completed secondary education with strong academic performance, developing fundamental knowledge across all subjects and establishing a solid educational foundation.",
+  gpa: "80%"
 }];
 const EducationSection = () => {
   return <section id="education" className="py-20 bg-muted/30">
