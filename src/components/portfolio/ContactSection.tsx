@@ -17,38 +17,38 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "kvarun.aiml@gmail.com",
-    link: "mailto:kvarun.aiml@gmail.com"
+    value: "himuvarun@gmail.com",
+    link: "mailto:himuvarun@gmail.com"
   },
   {
     icon: Phone,
     label: "Phone", 
-    value: "+91 98765 43210",
-    link: "tel:+919876543210"
+    value: "+91 988-082-6377",
+    link: "tel:+919880826377"
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "India",
+    value: "Ballari",
     link: "#"
   },
   {
     icon: Linkedin,
     label: "LinkedIn",
-    value: "linkedin.com/in/kvarun",
-    link: "https://linkedin.com/in/kvarun"
+    value: "linkedin.com/in/varun-himu-66343a317",
+    link: "https://linkedin.com/in/varun-himu-66343a317"
   },
   {
     icon: Github,
     label: "GitHub",
-    value: "github.com/kvarun",
-    link: "https://github.com/kvarun"
+    value: "github.com/himuvarun",
+    link: "https://github.com/himuvarun"
   },
   {
     icon: Code,
     label: "LeetCode",
-    value: "leetcode.com/kvarun",
-    link: "https://leetcode.com/kvarun"
+    value: "leetcode.com/u/VARUN594",
+    link: "https://leetcode.com/u/VARUN594"
   }
 ];
 
