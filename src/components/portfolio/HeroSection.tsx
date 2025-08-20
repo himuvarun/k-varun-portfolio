@@ -20,7 +20,7 @@ const HeroSection = () => {
             <img 
               src="/lovable-uploads/7e168cfe-522c-485e-95d7-857ccf1ca3f6.png" 
               alt="K Varun - AI/ML Engineer"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-top scale-110"
             />
           </div>
 
