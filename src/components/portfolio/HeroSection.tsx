@@ -15,11 +15,13 @@ const HeroSection = () => {
       {/* Content */}
       <div className="relative z-10 section-container text-center text-white">
         <div className="animate-fade-in">
-          {/* Profile Image Placeholder */}
-          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-white/10 backdrop-blur-sm border-2 border-white/20 flex items-center justify-center">
-            <div className="w-24 h-24 rounded-full bg-white/20 flex items-center justify-center text-white/60 text-2xl font-bold">
-              KV
-            </div>
+          {/* Profile Image */}
+          <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-white/10 backdrop-blur-sm border-2 border-white/20 overflow-hidden">
+            <img 
+              src="/lovable-uploads/7e168cfe-522c-485e-95d7-857ccf1ca3f6.png" 
+              alt="K Varun - AI/ML Engineer"
+              className="w-full h-full object-cover"
+            />
           </div>
 
           {/* Name */}
