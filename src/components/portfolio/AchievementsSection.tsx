@@ -39,47 +39,28 @@ const achievementsData = [
 
 const AchievementsSection = () => {
   return (
-    <section id="achievements" className="py-20">
-      <div className="section-container">
-        <div className="animate-fade-in">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 gradient-text">
-            Achievements & Recognition
-          </h2>
-          <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-            Celebrating milestones and recognition earned through dedication and innovation
-          </p>
-
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            {achievementsData.map((achievement, index) => {
-              const IconComponent = achievement.icon;
-              return (
-                <Card 
-                  key={achievement.title} 
-                  className="animate-scale-in project-card text-center group"
-                  style={{ animationDelay: `${index * 0.1}s` }}
-                >
-                  <CardHeader className="pb-4">
-                    <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors duration-300">
-                      <IconComponent className={`w-8 h-8 ${achievement.color} group-hover:scale-110 transition-transform duration-300`} />
-                    </div>
-                    <Badge variant="outline" className="w-fit mx-auto mb-2">
-                      {achievement.category}
-                    </Badge>
-                    <CardTitle className="text-lg">{achievement.title}</CardTitle>
-                    <p className="text-sm text-accent font-medium">{achievement.year}</p>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground text-sm leading-relaxed">
-                      {achievement.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              );
-            })}
+    <div className="max-w-4xl mx-auto px-8 py-8">
+      <h2 className="text-xl font-bold text-gray-900 mb-6">Achievements</h2>
+      
+      <div className="bg-white border border-gray-200 rounded-lg p-6">
+        <div className="flex items-center gap-4 mb-4">
+          <div className="w-16 h-16 bg-gray-100 rounded flex items-center justify-center">
+            <span className="text-2xl">🏆</span>
+          </div>
+          <div className="flex-1">
+            <ul className="text-sm text-gray-600 space-y-1">
+              <li>• 1st Winner Conquest at HKBKCE pre-event</li>
+              <li>• 2nd Winner of Conquest at HKBKCE main-event</li>
+              <li>• 2nd Place of coding hackathon organized: Team leader</li>
+              <li>• 3rd Place of coding organized: Team leader & Completed</li>
+              <li>• Successfully completed: 1st & 2nd yr CGPA</li>
+              <li>• Received: scholarship in 1st yr</li>
+              <li>• Earned — 200+ XPs from coding challenges & 2022</li>
+            </ul>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
