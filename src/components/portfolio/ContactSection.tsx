@@ -56,14 +56,35 @@ const ContactSection = () => {
   const { register, handleSubmit, reset, formState: { errors } } = useForm<ContactForm>();
   const { toast } = useToast();
 
-  const onSubmit = (data: ContactForm) => {
-    // Here you would typically send the form data to your backend
-    console.log('Form submitted:', data);
-    toast({
-      title: "Message Sent!",
-      description: "Thank you for reaching out. I'll get back to you soon.",
-    });
-    reset();
+  const onSubmit = async (data: ContactForm) => {
+    try {
+      const formData = new FormData();
+      formData.append('access_key', '81163573-c33f-4d0a-bf40-736fa9e7d235');
+      formData.append('name', data.name);
+      formData.append('email', data.email);
+      formData.append('message', data.message);
+
+      const response = await fetch('https://api.web3forms.com/submit', {
+        method: 'POST',
+        body: formData
+      });
+
+      if (response.ok) {
+        toast({
+          title: "Message Sent!",
+          description: "Thank you for reaching out. I'll get back to you soon.",
+        });
+        reset();
+      } else {
+        throw new Error('Failed to send message');
+      }
+    } catch (error) {
+      toast({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        variant: "destructive",
+      });
+    }
   };
 
   return (
