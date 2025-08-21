@@ -5,23 +5,23 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projectsData = [
   {
-    title: "AI-Powered Healthcare Diagnosis System",
-    description: "Developed a machine learning model using TensorFlow and computer vision techniques to assist in medical image analysis and diagnosis. Achieved 95% accuracy in detecting anomalies from X-ray images.",
-    techStack: ["Python", "TensorFlow", "OpenCV", "Flask", "React"],
+    title: "Automated Drone Navigation",
+    description: "Developed path following algorithm which later lands on destination. Using realtime camera access, work available on LinkedIn.",
+    techStack: ["Python", "OpenCV", "Computer Vision", "Path Planning", "Drone Control"],
     demoLink: "#",
     githubLink: "#"
   },
   {
-    title: "Natural Language Processing Chatbot",
-    description: "Built an intelligent conversational AI using NLTK and deep learning models. Implemented sentiment analysis and context understanding for enhanced user interactions.",
-    techStack: ["Python", "NLTK", "PyTorch", "FastAPI", "JavaScript"],
+    title: "Athlete Media Booking System",
+    description: "Working website which assists us to select any available athlete based on our requirement. Comprehensive booking platform for sports media coordination.",
+    techStack: ["React", "Node.js", "MongoDB", "Express", "JavaScript"],
     demoLink: "#",
     githubLink: "#"
   },
   {
-    title: "Predictive Analytics Dashboard",
-    description: "Created a comprehensive data analytics platform that processes large datasets and provides real-time insights using machine learning algorithms for business decision-making.",
-    techStack: ["Python", "Scikit-learn", "Pandas", "D3.js", "PostgreSQL"],
+    title: "Voice Controlled Lift Operator",
+    description: "Developed contactless lift operator that works on voice commands given by user. Using Flask and SQLAlchemy in Python language.",
+    techStack: ["Python", "Flask", "SQLAlchemy", "Speech Recognition", "IoT"],
     demoLink: "#",
     githubLink: "#"
   }
