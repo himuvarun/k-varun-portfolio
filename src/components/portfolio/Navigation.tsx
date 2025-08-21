@@ -51,7 +51,11 @@ const Navigation = () => {
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-accent transition-all duration-300 group-hover:w-full"></span>
               </a>
             ))}
-            <Button size="sm" className="ml-4">
+            <Button 
+              size="sm" 
+              className="ml-4"
+              onClick={() => window.open("https://drive.google.com/file/d/159jLIwMV7rUqPqT-aAVvCkPzvXC3oXtA/view?usp=sharing", '_blank')}
+            >
               <Download className="w-4 h-4 mr-2" />
               Resume
             </Button>
@@ -83,7 +87,11 @@ const Navigation = () => {
                 </a>
               ))}
               <div className="px-3 py-2">
-                <Button size="sm" className="w-full">
+                <Button 
+                  size="sm" 
+                  className="w-full"
+                  onClick={() => window.open("https://drive.google.com/file/d/159jLIwMV7rUqPqT-aAVvCkPzvXC3oXtA/view?usp=sharing", '_blank')}
+                >
                   <Download className="w-4 h-4 mr-2" />
                   Download Resume
                 </Button>

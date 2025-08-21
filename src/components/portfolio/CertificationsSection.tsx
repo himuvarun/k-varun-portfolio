@@ -10,7 +10,7 @@ const certificationsData = [
     date: "2022",
     description: "Basic military training and leadership development program completion",
     credentialId: "NCC-A-2022",
-    verifyLink: "#"
+    verifyLink: "https://drive.google.com/file/d/1Z20FkABDQyM5zZ7obDB629uSKM-XT8zh/view?usp=sharing"
   },
   {
     title: "NCC 'B' Certificate", 
@@ -18,7 +18,7 @@ const certificationsData = [
     date: "2023",
     description: "Intermediate level training in military tactics and advanced leadership skills",
     credentialId: "NCC-B-2023",
-    verifyLink: "#"
+    verifyLink: "https://drive.google.com/file/d/1NBV53PuTTAkV0mLBE137zE7RSlhgg_wx/view?usp=sharing"
   },
   {
     title: "NCC 'C' Certificate",
