@@ -8,22 +8,22 @@ const projectsData = [
     title: "Automated Drone Navigation",
     description: "Developed path following algorithm which later lands on destination. Using realtime camera access, work available on LinkedIn.",
     techStack: ["Python", "OpenCV", "Computer Vision", "Path Planning", "Drone Control"],
-    demoLink: "#",
-    githubLink: "#"
+    demoLink: "https://www.linkedin.com/posts/k-varun-66343a317_drone-workshop-technology-activity-7233046976366272512-Z9gU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBVGisBc6RO_UI0pcnRdwoO0n7eE9GDcvo",
+    githubLink: "https://www.linkedin.com/posts/k-varun-66343a317_drone-workshop-technology-activity-7233046976366272512-Z9gU?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFBVGisBc6RO_UI0pcnRdwoO0n7eE9GDcvo"
   },
   {
     title: "Athlete Media Booking System",
     description: "Working website which assists us to select any available athlete based on our requirement. Comprehensive booking platform for sports media coordination.",
     techStack: ["React", "Node.js", "MongoDB", "Express", "JavaScript"],
-    demoLink: "#",
-    githubLink: "#"
+    demoLink: "https://www.figma.com/proto/lQkwCGnqJkJV10MKL8r4Ue/Razor-AI---AI-Customer-Service-Tool--Community-?node-id=0-1&t=spWyqvSdk6T7l0ec-1",
+    githubLink: "https://www.figma.com/proto/lQkwCGnqJkJV10MKL8r4Ue/Razor-AI---AI-Customer-Service-Tool--Community-?node-id=0-1&t=spWyqvSdk6T7l0ec-1"
   },
   {
     title: "Voice Controlled Lift Operator",
     description: "Developed contactless lift operator that works on voice commands given by user. Using Flask and SQLAlchemy in Python language.",
     techStack: ["Python", "Flask", "SQLAlchemy", "Speech Recognition", "IoT"],
-    demoLink: "#",
-    githubLink: "#"
+    demoLink: "https://drive.google.com/file/d/1ksrvGGZgbxgAmRTYZF-C3WEJY12k-AzJ/view?usp=drive_link",
+    githubLink: "https://drive.google.com/file/d/1ksrvGGZgbxgAmRTYZF-C3WEJY12k-AzJ/view?usp=drive_link"
   }
 ];
 

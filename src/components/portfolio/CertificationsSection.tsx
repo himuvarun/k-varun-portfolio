@@ -29,28 +29,36 @@ const certificationsData = [
     verifyLink: "#"
   },
   {
-    title: "Hackathon Winner Certification",
-    issuer: "TechFest 2023",
+    title: "MATLAB Onramp",
+    issuer: "MathWorks",
     date: "2023",
-    description: "Recognition for developing innovative AI solution in 48-hour coding challenge",
-    credentialId: "TF-WIN-2023",
-    verifyLink: "#"
+    description: "Interactive introduction to practical MATLAB programming and problem-solving techniques",
+    credentialId: "MATLAB-2023",
+    verifyLink: "https://drive.google.com/file/d/1Dh1zcce_8Q1IDaq1yiHhmyjKpEQltGe2/view?usp=sharing"
   },
   {
-    title: "AI/ML Specialization",
-    issuer: "Online Learning Platform",
+    title: "Getting Started with Enterprise-grade AI in IBM",
+    issuer: "IBM",
     date: "2023",
-    description: "Comprehensive certification in machine learning algorithms and deep learning frameworks",
-    credentialId: "AIML-2023",
-    verifyLink: "#"
+    description: "Enterprise AI solutions and implementation strategies using IBM Watson and cloud technologies",
+    credentialId: "IBM-AI-2023",
+    verifyLink: "https://drive.google.com/file/d/1lw3wP1pRgXBew0u1S37JEx2naW9o2LTm/view?usp=sharing"
   },
   {
-    title: "Data Science Fundamentals",
-    issuer: "Professional Institute",
-    date: "2022", 
-    description: "Foundation certification covering statistical analysis and data visualization techniques",
-    credentialId: "DS-FUND-2022",
-    verifyLink: "#"
+    title: "Hackathon Winner Certificate",
+    issuer: "Competition Authority",
+    date: "2023",
+    description: "Recognition for developing innovative solutions in competitive programming challenge",
+    credentialId: "HACK-WIN-2023",
+    verifyLink: "https://drive.google.com/file/d/1q4SLGHnPWai6E2t1AtRK1D6ZRuFdQQFC/view?usp=sharing"
+  },
+  {
+    title: "IT-ITeS Sector Skills Council NASSCOM",
+    issuer: "NASSCOM",
+    date: "2023",
+    description: "Industry-recognized certification for IT and software development skills",
+    credentialId: "NASSCOM-2023",
+    verifyLink: "https://drive.google.com/file/d/1rzCcxMTYHNXQQxVSot5yFsOHASMAEH1u/view?usp=sharing"
   }
 ];
 
