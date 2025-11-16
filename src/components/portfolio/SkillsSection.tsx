@@ -31,7 +31,7 @@ const skillsData = [
   {
     category: "Languages",
     icon: Languages,
-    skills: ["English", "Hindi", "Telugu"]
+    skills: ["English", "Hindi", "Telugu", "Kannada"]
   }
 ];
 
