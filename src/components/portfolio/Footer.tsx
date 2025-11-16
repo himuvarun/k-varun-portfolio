@@ -45,7 +45,7 @@ const Footer = () => {
             <Button 
               variant="outline" 
               className="border-primary-foreground/30 text-primary-foreground hover:bg-primary-foreground/10"
-              onClick={() => window.open("https://drive.google.com/file/d/1Xqz2-1bQC3XM7W2A0HUfJOfd4Fh7wkXn/view?usp=sharing", '_blank')}
+              onClick={() => window.open("https://drive.google.com/file/d/1qW39lBx1b2weeRz6e22QkB10YpCqY85G/view?usp=sharing", '_blank')}
             >
               <Download className="w-4 h-4 mr-2" />
               Download Resume
