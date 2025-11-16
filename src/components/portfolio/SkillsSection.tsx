@@ -6,7 +6,7 @@ const skillsData = [
   {
     category: "Programming Languages",
     icon: Code2,
-    skills: ["Python", "Java", "C++", "JavaScript", "SQL", "R", "MATLAB"]
+    skills: ["Python", "Java", "C++", "SQL", "R", "MATLAB"]
   },
   {
     category: "Frameworks & Libraries",
@@ -16,7 +16,7 @@ const skillsData = [
   {
     category: "AI/ML Concepts",
     icon: Brain,
-    skills: ["Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Neural Networks", "Data Mining"]
+    skills: ["Machine Learning", "Deep Learning", "Natural Language Processing", "Computer Vision", "Neural Networks"]
   },
   {
     category: "Tools & Technologies",
