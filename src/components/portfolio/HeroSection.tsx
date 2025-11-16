@@ -44,7 +44,7 @@ const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-white text-primary hover:bg-white/90 font-semibold px-8 py-3"
-              onClick={() => window.open("https://drive.google.com/file/d/159jLIwMV7rUqPqT-aAVvCkPzvXC3oXtA/view?usp=sharing", '_blank')}
+              onClick={() => window.open("https://drive.google.com/file/d/1Xqz2-1bQC3XM7W2A0HUfJOfd4Fh7wkXn/view?usp=sharing", '_blank')}
             >
               <Download className="w-5 h-5 mr-2" />
               Download Resume
